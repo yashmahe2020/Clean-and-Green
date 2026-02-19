@@ -1,22 +1,40 @@
-# Clean and Green AI
+# CleanAndGreen
 
-Environmental AI research project focusing on waste classification and conversational sustainability assistants.
+Environmental AI research leveraging Computer Vision for automated waste classification and sorting.
 
-## 🌍 Project Scope
-This repository houses research notebooks and prototypes for leveraging Computer Vision and Large Language Models (LLMs) to solve environmental challenges.
+## 🌍 The Mission
 
-## 📂 Components
-### 1. Conversational AI (`nb/`)
-- **Notebook**: `Llama3.2_(1B_and_3B)-Conversational.ipynb`
-- **Goal**: Fine-tuning and testing Llama 3.2 models (1B and 3B parameters) for sustainability-focused dialogue.
+The goal of CleanAndGreen is to optimize recycling processes by using deep learning to accurately identify and categorize waste materials (plastic, glass, paper, etc.) from images. This helps reduce contamination in recycling streams.
 
-### 2. Waste Classification (`waste-classify/`)
-- **Goal**: Developing computer vision models to automatically identify and categorize waste types (Recyclable, Organic, Hazardous).
+## 🔬 Research & Implementation
 
-## 🛠️ Tools Used
-- **Models**: Llama 3.2, Custom CNNs (MobileNet/ResNet)
-- **Frameworks**: PyTorch, Hugging Face Transformers
-- **Platform**: Jupyter Notebooks
+- **Data Collection**: Curated a dataset of thousands of waste images.
+- **Model Training**: Utilized Convolutional Neural Networks (CNNs) and transfer learning to build a robust classifier.
+- **Results**: Achieved high accuracy in distinguishing between recyclable and non-recyclable items.
+
+## 📂 Repository Structure
+
+- `waste-classify/`: Contains the core classification models and training scripts.
+- `nb/`: Jupyter notebooks with EDA (Exploratory Data Analysis) and model experiments.
+
+## 🛠️ Tech Stack
+
+- **Python**: Primary language for data science and model development.
+- **PyTorch / TensorFlow**: Deep learning frameworks used for model training.
+- **OpenCV**: For image preprocessing and augmentation.
+- **Jupyter**: For interactive experimentation and visualization.
 
 ## 🚀 Getting Started
-Open the notebooks in Google Colab or a local Jupyter environment to replicate the experiments.
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/yashmahe2020/CleanAndGreen.git
+    cd CleanAndGreen
+    ```
+
+2.  **Explore the Notebooks**
+    Open the Jupyter notebooks in `nb/` or `waste-classify/` to see the model training process and results.
+
+---
+
+**Note**: This is a research-focused repository demonstrating applied AI in sustainability.
